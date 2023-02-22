@@ -4,7 +4,7 @@
 }
 
 body {
-    max-width: 1200px;
+    max-width: 75em;
     text-align: center;
     margin: 0 auto;
     background-color: whitesmoke;
@@ -16,27 +16,31 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(158, 158, 158, 0.559);
-    border-radius: 5px;
-    height: 320px;
+    border-radius: 1em;
+    height: 18em;
+    margin: 1em;
 }
 
 
 .logo-img {
-    width: 300px;
-    height: 300px;
-    border-radius: 5px;
-    margin-top: 50px;
+    width: 18em;
+    height: 18em;
+    border-radius: 1em;
+    margin-top: 2em;
     background-image: none !important;
 
 }
 
+.menu-icon-mobile {
+   display: none;
+}
+
 
 button {
-    height: 50px;
+    height: 3em;
     align-self: flex-end;
-    margin-bottom: 10px;
-    width: 150px;
-    margin: 5px;;
+    width: 8em;
+    margin: .5em;;
 }
 
 
@@ -82,3 +86,23 @@ button {
 .button-55:focus {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    button {
+       display: none;
+    }
+    .logo-img {
+        width: 14em;
+        height: 14em;
+        margin-top: 5.5em;
+    }
+
+    .menu-icon-mobile {
+        display: flex;
+        position: absolute;
+        margin-left: 8em;
+        margin-top: 2em;
+    }
+
+  }
