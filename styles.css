@@ -12,35 +12,40 @@ body {
 }
 
 
-nav {
+.nav-container {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     background-color: rgba(158, 158, 158, 0.559);
     border-radius: 1em;
-    height: 18em;
+    height: auto;
     margin: 1em;
 }
 
 
 .logo-img {
     width: 18em;
-    height: 18em;
     border-radius: 1em;
-    margin-top: 2em;
+    align-self: center;
     background-image: none !important;
-
-}
-
-.menu-icon-mobile {
-   display: none;
+    margin: 1em;
 }
 
 
-button {
+nav li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+}
+
+
+.button-55 {
     height: 3em;
-    align-self: flex-end;
     width: 8em;
-    margin: .5em;;
+    list-style: none;
 }
 
 
@@ -95,13 +100,14 @@ button {
     .logo-img {
         width: 14em;
         height: 14em;
-        margin-top: 5.5em;
+        align-self: center;
+        
     }
 
     .menu-icon-mobile {
         display: flex;
         position: absolute;
-        margin-left: 8em;
+        margin-left: 20em;
         margin-top: 2em;
     }
 
