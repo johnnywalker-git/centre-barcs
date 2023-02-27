@@ -22,6 +22,35 @@ body {
     padding: 1em;
 }
 
+.nav-container-mobile {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(158, 158, 158, 0.559);
+    border-radius: 1em;
+    height: 300px;
+    margin: 1em;
+    padding: 1em;
+    align-items: center;
+}
+
+.nav-container-mobile .button-55 {
+    height: 3em;
+    width: 8em;
+    list-style: none;
+    text-align: center;
+    margin: 0.5em;
+}
+
+
+.nav-button-list-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+    align-self: center;
+}
+
 .menu-mobile {
     display: none;
 }
@@ -37,6 +66,24 @@ body {
     align-self: center;
     background-image: none !important;
     margin: 1em;
+}
+
+.logo-img-mob {
+    width: 10em;
+    border-radius: 1em;
+    align-self: center;
+    background-image: none !important;
+    margin: 1em;
+}
+
+.image-menu-mobile {
+display: flex;
+flex-direction: column;
+}
+
+.menu-mobile-mobile {
+    display: block;
+    position: absolute;
 }
 
 nav li {
@@ -56,6 +103,12 @@ nav ul {
     width: 6em;
     list-style: none;
     text-align: center;
+}
+
+.menu-icon-mobile {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 
@@ -111,14 +164,12 @@ nav ul {
     .logo-img {
         width: 14em;
         align-self: center;
-        
     }
 
     .menu-icon-mobile {
-        display: flex;
-        position: absolute;
-        margin-left: 20em;
-        margin-top: 2em;
+        position: fixed;
+        bottom: 0;
+        right: 0;
     }
 
     .menu-mobile {
