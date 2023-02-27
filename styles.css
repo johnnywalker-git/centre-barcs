@@ -22,6 +22,8 @@ body {
     padding: 1em;
 }
 
+
+
 .nav-container-mobile {
     display: none;
     flex-direction: row;
@@ -174,7 +176,9 @@ nav ul {
 
     .menu-mobile {
         display: block;
-        position: absolute;
+        position: fixed;
+       
     }
+
 
   }
