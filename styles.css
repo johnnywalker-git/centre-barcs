@@ -23,6 +23,47 @@ h3 {
     padding: 1em;
 }
 
+#form-tags {
+    width: 150px;
+    text-align: left;
+}
+
+.form-titles {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-input {
+    height: 30px;
+    margin: 1.75px;
+}
+
+#form-submit {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-form-outer {
+    background-color: rgba(158, 158, 158, 0.559);
+    height: auto;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
 
 
 
