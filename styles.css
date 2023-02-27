@@ -11,6 +11,20 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23175137' fill-opacity='0.06' fill-rule='evenodd'%3E%3Cpath d='M0 0h35v35H0V0zm5 5h25v25H5V5zm5 5h15v15H10V10zm5 5h5v5h-5v-5zM40 5h25v25H40V5zm5 5h15v15H45V10zm5 5h5v5h-5v-5zM70 35H35v35h35V35zm-5 5H40v25h25V40zm-5 5H45v15h15V45zm-5 5h-5v5h5v-5zM30 40H5v25h25V40zm-5 5H10v15h15V45zm-5 5h-5v5h5v-5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
+h1, h3 {
+    color: #1751379a;
+}
+
+h1 {
+    padding: 1em;
+}
+
+h3 {
+    padding: 1em;
+}
+
+
+
 
 .nav-container {
     display: flex;
@@ -69,6 +83,27 @@ body {
     background-image: none !important;
     margin: 1em;
 }
+
+.content-photo {
+    width: 300px;
+    height: 300px;
+}
+
+.content-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+
+.content-info-box {
+    width: 370px;
+    height: 300px;
+    background-color: rgba(158, 158, 158, 0.559);
+    margin: 1em;
+    border-radius: 1em;
+
+   }
 
 .logo-img-mob {
     width: 10em;
@@ -179,6 +214,11 @@ nav ul {
         display: block;
         position: fixed;
        
+    }
+
+    .content-boxes {
+        flex-direction: column;
+        align-items: center;
     }
 
 
