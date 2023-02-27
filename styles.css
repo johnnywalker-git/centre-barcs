@@ -175,7 +175,7 @@ display: flex;
 flex-direction: column;
 }
 
-.menu-mobile-mobile {
+.menu-small {
     display: block;
     position: absolute;
 }
@@ -197,12 +197,6 @@ nav ul {
     width: 6em;
     list-style: none;
     text-align: center;
-}
-
-.menu-icon-mobile {
-    position: fixed;
-    bottom: 0;
-    right: 0;
 }
 
 
