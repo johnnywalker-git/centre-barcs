@@ -77,7 +77,7 @@ h4 {
     flex-direction: column;
     background-color: rgba(158, 158, 158, 0.559);
     border-radius: 1em;
-    height: auto;
+    height: 360px;
     margin: 1em;
     padding: 1em;
 }
@@ -101,7 +101,7 @@ h4 {
     justify-content: space-around;
     background-color: rgba(158, 158, 158, 0.559);
     border-radius: 1em;
-    height: 300px;
+    height: 360px;
     margin: 1em;
     padding: 1em;
     align-items: center;
@@ -260,11 +260,11 @@ nav ul {
         top: 10px;
         right: 30px;
         color: white;
-        z-index: 1;
+        z-index: 2;
 
     }
 
-    .menu-mobile {
+    #menu-mobile {
         display: inline;
         position: absolute;
         top: 10px;
