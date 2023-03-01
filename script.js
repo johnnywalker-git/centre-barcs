@@ -9,6 +9,7 @@ let navContainerMobile = document.querySelector(".nav-container-mobile")
 function openMenu() {
   navContainer.style.display = "none"
   navContainerMobile.style.display = "flex"
+  navContainerMobile.style.opacity = "1"
 
   console.log("Mobile viewing initiated.")
 }
@@ -16,6 +17,7 @@ function openMenu() {
 function closeMenu() {
     navContainer.style.display = "flex"
     navContainerMobile.style.display = "none"
+    navContainerMobile.style.opacity = "0"
       
     console.log(" viewing initiated.")
   }
