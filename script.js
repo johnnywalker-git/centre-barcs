@@ -1,4 +1,4 @@
-let menuButton  = document.querySelector(".menu-mobile")
+let menuButton  = document.querySelector("#menu-mobile")
 let logoImage  = document.querySelector(".logo-img-mob")
 let navList = document.querySelector(".nav-button-list")
 let navContainer = document.querySelector(".nav-container")
