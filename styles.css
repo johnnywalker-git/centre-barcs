@@ -124,9 +124,7 @@ h4 {
     align-self: center;
 }
 
-.menu-mobile {
-    display: none;
-}
+
 
 .nav-container-mobile {
     display: none;
@@ -199,6 +197,15 @@ nav ul {
     text-align: center;
 }
 
+#menu-mobile {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: 1;
+
+}
+
 
 
 /* Button Styles */
@@ -250,28 +257,13 @@ nav ul {
     }
 
     .logo-img {
-        width: 14em;
+        width: 16em;
+        margin-top: 2em;
         align-self: center;
     }
 
-    .menu-mobile-mobile {
-        display: inline;
-        position: absolute;
-        top: 10px;
-        right: 30px;
-        color: white;
-        z-index: 2;
 
-    }
-
-    #menu-mobile {
-        display: inline;
-        position: absolute;
-        top: 10px;
-        right: 30px;
-        z-index: 1;
-
-    }
+  
 
     .content-boxes {
         flex-direction: column;
