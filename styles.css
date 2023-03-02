@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -78,7 +79,15 @@ h4 {
     box-shadow:3px 3px 5px 1px rgb(174, 174, 174);
 }
 
-
+.privacy-box {
+    width: auto;
+    height: auto;
+    background-color: rgba(158, 158, 158, 0.559);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow:3px 3px 5px 1px rgb(174, 174, 174);
+}
 
 .nav-container {
     display: flex;
