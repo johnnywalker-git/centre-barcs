@@ -227,7 +227,7 @@ h4 {
 }
 
 .service-box {
-    width: auto;
+    width: 25em;
     height: auto;
     background-color: rgba(158, 158, 158, 0.559);
     margin: 4em;
@@ -238,8 +238,12 @@ h4 {
 .service-box-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
+.service-images {
+    width: 200px;
+}
 .logo-img-mob {
     width: 10em;
     border-radius: 1em;
@@ -364,6 +368,7 @@ nav ul {
 
     .service-box {
         margin: 1em;
+        width: auto;
     }
     
 
