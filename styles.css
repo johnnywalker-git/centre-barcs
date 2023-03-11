@@ -19,6 +19,7 @@ h1, h3, h4, h2, p {
 
 h2 {
     font-family: 'Genos', sans-serif;
+    font-weight: 100;
 }
 
 h1 {
@@ -380,6 +381,10 @@ nav ul {
     .service-box {
         margin: 1em;
         width: auto;
+    }
+
+    .privacy-box {
+        padding: 1em;
     }
     
 
