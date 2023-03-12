@@ -8,7 +8,7 @@ body {
     max-width: 75em;
     text-align: center;
     margin: 0 auto;
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.472);
     background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23175137' fill-opacity='0.06' fill-rule='evenodd'%3E%3Cpath d='M0 0h35v35H0V0zm5 5h25v25H5V5zm5 5h15v15H10V10zm5 5h5v5h-5v-5zM40 5h25v25H40V5zm5 5h15v15H45V10zm5 5h5v5h-5v-5zM70 35H35v35h35V35zm-5 5H40v25h25V40zm-5 5H45v15h15V45zm-5 5h-5v5h5v-5zM30 40H5v25h25V40zm-5 5H10v15h15V45zm-5 5h-5v5h5v-5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -96,6 +96,37 @@ h4 {
     width: 300px;
     align-self: center;
     border-radius: 5px;
+    margin: 1em;
+}
+
+.about-item-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(208, 208, 208, 0.112);
+    margin: 1em;
+    border-radius: 1em;
+    align-self: center;
+    box-shadow:3px 3px 5px 1px rgb(174, 174, 174);
+}
+
+.all-containers-about {
+    background-color: rgba(158, 158, 158, 0.402);
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    opacity: 1;
+    transition: opacity 2s;
+    box-shadow: 3px 3px 5px 1px rgb(174, 174, 174);
+}
+
+.about-info-box {
+    background-color: rgba(158, 158, 158, 0.705);
+    width: 500px;
+    height: auto;
+    margin: 5em;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow:3px 3px 5px 1px rgb(174, 174, 174);
 }
 
 .contact-form-outer {
@@ -133,7 +164,7 @@ h4 {
 .footer-container {
     display: flex;
     flex-direction: column;
-    background-color: rgba(158, 158, 158, 0.705);
+    background-color: rgba(158, 158, 158, 0.392);
     border-radius: 10px;
     height: auto;
     margin: 1em;
@@ -220,14 +251,6 @@ h4 {
 
    }
 
-.about-info-box {
-    width: auto;
-    height: auto;
-    background-color: rgba(158, 158, 158, 0.705);
-    margin: 1em;
-    border-radius: 1em;
-    box-shadow:3px 3px 5px 1px rgb(174, 174, 174);
-   }
 
 .content-info-box-about {
     width: auto;
@@ -266,6 +289,7 @@ h4 {
 .image-menu-mobile {
 display: flex;
 flex-direction: column;
+
 }
 
 .menu-small {
@@ -297,7 +321,7 @@ nav ul {
     display: none;
     position: absolute;
     top: 20px;
-    left: 30px;
+    right: 30px;
     z-index: 1;
 
 }
@@ -358,6 +382,9 @@ nav ul {
         align-self: center;
     }
 
+    .all-containers-about {
+        margin: 0em 0em 1em 0em;
+    }
 
   
 
@@ -370,7 +397,7 @@ nav ul {
         display: flex;
         position: absolute;
         top: 20px;
-        left: 30px;
+        right: 30px;
         z-index: 1;    
     }
 
@@ -386,7 +413,24 @@ nav ul {
     .privacy-box {
         padding: 1em;
     }
-    
 
+    .about-item-container {
+        flex-direction: column;
+        padding: 1em;
+        align-self: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
 
+    }
+
+    .about-info-box {
+        width: 300px;
+        margin: 0;
+        align-self: center;
   }
+
+  .all-containers-about {
+    margin: 1em;
+    padding: 0;
+  }
+}
