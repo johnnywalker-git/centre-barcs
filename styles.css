@@ -241,8 +241,7 @@ h4 {
     width: 300px;
     height: 300px;
     align-self: center;
-    border-radius: 200px;
-    box-shadow: 0px 0px 5px #fff;
+
 }
 
 .content-photo-m {
@@ -260,8 +259,8 @@ h4 {
     height: 150px;
     align-self: center;
     border-radius: 200px;
-    margin-right: 100px;
-    margin-top: -50px;
+    margin-right: 150px;
+    margin-top: -80px;
     box-shadow: 0px 0px 5px #fff;
 }
 
@@ -407,8 +406,13 @@ nav ul {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 
+.index-image-box {
+    display: flex;
+    flex-direction: column;
+}
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 750px) {
     .nav-button-list {
        display: none;
     }
@@ -497,8 +501,8 @@ nav ul {
     height: 150px;
     align-self: center;
     border-radius: 200px;
-    margin-right: 100px;
-    margin-top: -50px;
+    margin-right: 150px;
+    margin-top: -80px;
     box-shadow: 0px 0px 5px #fff;
 }
 
