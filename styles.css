@@ -241,7 +241,8 @@ h4 {
     width: 300px;
     height: 300px;
     align-self: center;
-
+    border-radius: 200px;
+    box-shadow: 0px 0px 5px #fff;
 }
 
 .content-photo-m {
@@ -473,4 +474,32 @@ nav ul {
   .contact-form-outer {
     width: auto;
   }
+
+  .content-photo {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+
+}
+
+.content-photo-m {
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    border-radius: 200px;
+    margin-left: 100px;
+    margin-top: -50px;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.content-photo-s {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 200px;
+    margin-right: 100px;
+    margin-top: -50px;
+    box-shadow: 0px 0px 5px #fff;
+}
+
 }
