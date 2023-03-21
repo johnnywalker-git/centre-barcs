@@ -274,7 +274,7 @@ h4 {
     width: auto;
 }
 
-.content-info-box {
+.content-info-box, .content-info-box-g {
     width: 370px;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -282,10 +282,23 @@ h4 {
     align-self: center;
     box-shadow:3px 3px 5px 1px rgb(174, 174, 174);
     border-radius: 25px 5px 3px 0px;
-
-
-
    }
+
+.content-info-box-g {
+    background-color: rgb(23, 81, 55) !important;
+    box-shadow:1px 1px 2px 1px rgb(174, 174, 174);
+    border-radius: 0px 5px 25px 3px;
+    color: whitesmoke !important;
+
+}
+
+.content-info-box-g p {
+    color: white;
+}
+
+.index-info-box {
+    align-self: center;
+}
 
 
 .content-info-box-about {
