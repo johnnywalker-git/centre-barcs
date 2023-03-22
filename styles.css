@@ -169,11 +169,12 @@ h4 {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.328);
-    border-radius: 0em, 0em, 0em, 0em;
+    border-radius: 0px, 50px, 0px, 0px;
     height: 350px;
     margin: 0em, 0em, 0em, 0em;
     padding: 0em, 0em, 0em, 0em;
 }
+
 
 .footer-container {
     display: flex;
@@ -229,7 +230,7 @@ h4 {
 }
 
 
-.logo-img {
+.logo-img, .slide-in-elliptic-top-fwd {
     width: 16em;
     border-radius: 1em;
     align-self: center;
@@ -376,7 +377,49 @@ nav ul {
 
 }
 
+/* Animations */
+.slide-in-elliptic-top-fwd {
+	-webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
+ @-webkit-keyframes slide-in-elliptic-top-fwd {
+    0% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-elliptic-top-fwd {
+    0% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+
+  #nav-fade-in{-webkit-animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both}
+  @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+  
 
 /* Button Styles */
 .button-55 {
