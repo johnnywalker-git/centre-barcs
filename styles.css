@@ -12,6 +12,8 @@ body {
     background: #C33764; 
     background: -webkit-linear-gradient(rgb(23, 81, 55, 0.8), rgb(44, 141, 97, 0.8)), url("images/tree-background.jpg");
     background: linear-gradient(rgb(23, 81, 55, 0.8), rgb(23, 81, 55, 0.8)), url("images/tree-background.jpg"); 
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h3, h4, h2, p {
@@ -109,13 +111,26 @@ h4 {
     align-self: center;
 }
 
-.main-heading-container {
+.main-heading-container, .main-heading-container-inverse {
     background-color: rgb(255, 255, 255);    
     margin: 1em;
+    width: 50%;
+    align-self: center;
     padding: 1em;
     align-self: center;
     box-shadow:3px 3px 5px 1px rgb(174, 174, 174);
     border-radius: 25px 5px 3px 0px;
+}
+
+.main-heading-container-inverse h2 {
+    color: whitesmoke;
+    border-bottom:1em;
+}
+
+.main-heading-container-inverse {
+    background-color: #175137;
+    border-radius: 3px 5px 25px 0px;
+    box-shadow:1px 1px 1px 1px rgb(174, 174, 174);
 
 
 }
@@ -172,6 +187,7 @@ h4 {
     height: 350px;
     margin: 0em, 0em, 0em, 0em;
     padding: 0em, 0em, 0em, 0em;
+    border-radius: 0px 0px 5px 5px;
 }
 
 
@@ -186,6 +202,8 @@ h4 {
     border-radius: 0em, 0em, 0em, 0em;
     margin: 0em, 0em, 0em, 0em;
     padding: 10px 0px 10px 0px;
+    border-radius: 5px 5px 0px 0px;
+
 }
 
 
@@ -523,6 +541,10 @@ nav ul {
     margin-right: 150px;
     margin-top: -80px;
     box-shadow: 0px 0px 5px #fff;
+}
+
+.main-heading-container, .main-heading-container-inverse {
+    width: 80%;
 }
 
 }
