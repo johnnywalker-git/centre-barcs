@@ -19,7 +19,6 @@ function closeMenu() {
     navContainer.style.display = "flex"
     navContainerMobile.style.display = "none"
     navContainerMobile.style.opacity = "0"
-      
     console.log(" viewing initiated.")
   }
 
