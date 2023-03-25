@@ -3,6 +3,7 @@ let logoImage  = document.querySelector(".logo-img-mob")
 let navList = document.querySelector(".nav-button-list")
 let navContainer = document.querySelector(".nav-container")
 let navContainerMobile = document.querySelector(".nav-container-mobile")
+const form = document.getElementById('my-form')
 
 
 
@@ -23,7 +24,6 @@ function closeMenu() {
   }
 
   window.addEventListener("load", function() {
-    const form = document.getElementById('my-form');
     form.addEventListener("submit", function(e) {
       e.preventDefault();
       const data = new FormData(form);
@@ -33,8 +33,11 @@ function closeMenu() {
         body: data,
       })
       .then(() => {
-        alert("Success!");
+        alert("Thank you for getting in touch. We aim to be in cotact within 24 hours!");
+        form.reset();
       })
     });
+    form.reset()
   });
+
   
