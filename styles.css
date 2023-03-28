@@ -63,6 +63,24 @@ h4 {
 
 }
 
+/* body > div.content-boxes > div.container-index-wrapper > div:nth-child(2) > div.content-info-box-g > ul > li {
+    display: flex;
+    justify-content: center;
+} */
+
+.icon-container {
+    display: flex;
+    align-content: center;
+}
+
+body > div.content-boxes > div.container-index-wrapper > div:nth-child(2) > div.content-info-box-g > ul > li:nth-child(1) > div > svg {
+    align-self: center;
+}
+
+li {
+    list-style: none;
+}
+
 
 
 .contact-form-container {
@@ -315,6 +333,8 @@ h4 {
     box-shadow:1px 1px 2px 1px rgb(174, 174, 174);
     border-radius: 0px 5px 25px 3px;
     color: whitesmoke !important;
+    align-items: center;
+    justify-items: center;
 
 }
 
