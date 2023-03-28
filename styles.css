@@ -132,6 +132,7 @@ li {
 .main-heading-container, .main-heading-container-inverse {
     background-color: rgb(255, 255, 255);    
     margin: 1em;
+    border: 1em;
     width: 80%;
     align-self: center;
     padding: 1em;
@@ -329,12 +330,14 @@ li {
    }
 
 .content-info-box-g {
+    display: flex;
     background-color: rgb(23, 81, 55) !important;
     box-shadow:1px 1px 2px 1px rgb(174, 174, 174);
     border-radius: 0px 5px 25px 3px;
     color: whitesmoke !important;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+
 
 }
 
