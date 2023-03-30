@@ -132,13 +132,18 @@ li {
     background-color: rgb(255, 255, 255);    
     margin: 1em;
     border: 1em;
-    width: 80%;
+    width: 99%;
     align-self: center;
     padding: 1em;
     align-self: center;
-    box-shadow:3px 3px 5px 1px rgb(174, 174, 174);
-    border-radius: 25px 5px 3px 0px;
     margin-bottom: 0px;
+    border-radius: 3px;
+    
+}
+
+.main-heading-container-inverse {
+    margin-bottom: 1em;
+
 }
 
 .main-heading-container-inverse h2 {
@@ -149,8 +154,7 @@ li {
 
 .main-heading-container-inverse {
     background-color: #175137;
-    border-radius: 3px 5px 25px 0px;
-    box-shadow:1px 1px 1px 1px rgb(174, 174, 174);
+    box-shadow:0.5px 0.5px 0.5px 0.5px rgb(174, 174, 174);
     margin-top: 10px
 }
 
@@ -162,9 +166,8 @@ li {
 
 .about-info-box {
     background-color: rgb(255, 255, 255);
-    width: 500px;
+    width: 100%;
     height: auto;
-    margin: 5em;
     padding: 1em;
     box-shadow:3px 3px 5px 1px rgb(174, 174, 174);
     border-radius: 25px 5px 3px 0px;
@@ -574,7 +577,7 @@ nav ul {
 }
 
 .main-heading-container, .main-heading-container-inverse {
-    width: 80%;
+    width: 100%;
 }
 
 }
