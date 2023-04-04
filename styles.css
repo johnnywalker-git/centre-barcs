@@ -291,6 +291,15 @@ li {
     margin: 0.5em;
 }
 
+#call-to-action {
+width: 60%;
+color: whitesmoke;
+padding: 20px;
+text-align: center;
+margin: 10px;
+line-height: 3px;
+}
+
 
 .nav-button-list-mobile {
     display: flex;
