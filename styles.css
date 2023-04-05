@@ -63,6 +63,9 @@ h4 {
     color: whitesmoke;
 
 }
+body > div.main-heading-container-inverse > p {
+    color: whitesmoke;
+}
 
 /* body > div.content-boxes > div.container-index-wrapper > div:nth-child(2) > div.content-info-box-g > ul > li {
     display: flex;
