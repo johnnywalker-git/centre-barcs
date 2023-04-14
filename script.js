@@ -39,4 +39,4 @@ function closeMenu() {
     form.reset()
   });
 
-  
+  const device
