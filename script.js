@@ -33,7 +33,7 @@ function closeMenu() {
       })
       .then(() => {
         alert("Thank you for getting in touch. We aim to be in contact within 24 hours!");
-        form.reset();
+      
       })
     });
     form.reset()
