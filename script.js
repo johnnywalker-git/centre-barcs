@@ -22,20 +22,4 @@ function closeMenu() {
     console.log(" viewing initiated.")
   }
 
-  // window.addEventListener("load", function() {
-  //   form.addEventListener("submit", function(e) {
-  //     e.preventDefault();
-  //     const data = new FormData(form);
-  //     const action = e.target.action;
-  //     fetch(action, {
-  //       method: 'POST',
-  //       body: data,
-  //     })
-  //     .then(() => {
-  //       alert("Thank you for getting in touch. We aim to be in contact within 24 hours!");
-  //       form.reset();
-  //     })
-  //   });
-  //   form.reset()
-  // });
-
+  
