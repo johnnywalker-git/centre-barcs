@@ -48,6 +48,65 @@ h4 {
     flex-wrap: wrap;
 }
 
+.facebook-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+.facebook-like {
+    align-self: flex-start;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 20px;
+}
+
+.facebook-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+
+.facebook-message {
+    display: flex;
+    background-color: #3b5998;
+    border-radius: 10px;
+    border: 0.5px;
+    font-family: Helvetica, cursive;
+    border-color:whitesmoke;
+    align-items: center;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: gray;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.facebook-message i {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.facebook-message p {
+    font-family: Helvetica, cursive;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    color: whitesmoke;
+    padding-left: 9px;
+}
+
 #form-tags {
     width: 150px;
     text-align: left;
